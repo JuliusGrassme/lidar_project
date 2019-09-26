@@ -1,0 +1,76 @@
+
+
+
+|-----------------------------------------------|
+Init cloud data block  
+
+
+.inits itself with a cylinder in rgb
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.if being written to by the manager thread <<-----
+
+
+.		get the new data
+
+
+.		write the data into the binary file
+
+
+.		replace the current_frame_pointcloud with the new one
+
+
+.		set new_cloud_data to 1
+
+
+.
+
+
+.if being read from by the vizualizer thread <<-----
+
+
+.		set new_cloud_data to 0
+
+
+.		return the current_frame_pointcloud
+
+
+
+
+.		
+
+
+.		
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.

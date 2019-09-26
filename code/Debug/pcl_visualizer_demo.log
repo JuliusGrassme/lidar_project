@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Users/Jetfire/Dropbox/IMPORTANT/Lidar Camera Project/PCL OPENGL2 UPGRADE/pcl_visualizer/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Jetfire/Dropbox/IMPORTANT/Lidar Camera Project/PCL OPENGL2 UPGRADE/pcl_visualizer/build2/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(75): error C2825: 'F': must be a class or namespace when followed by '::'
+  C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(1284): note: see reference to class template instantiation 'boost::_bi::result_traits<R,F>' being compiled
+          with
+          [
+              R=boost::_bi::unspecified,
+              F=void (__thiscall visualizer::* )(clouddata *)
+          ]
+  c:\users\jetfire\dropbox\important\lidar camera project\pcl opengl2 upgrade\pcl_visualizer\build2\Classess.h(821): note: see reference to class template instantiation 'boost::_bi::bind_t<boost::_bi::unspecified,void (__thiscall visualizer::* )(clouddata *),boost::_bi::list3<boost::_bi::value<T>,boost::_bi::value<clouddata*>,boost::_bi::value<clouddata*>>>' being compiled
+          with
+          [
+              T=scene_visualizer *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include\chrono(882): note: see reference to class template instantiation 'std::chrono::duration<__int64,std::micro>' being compiled
+C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(75): error C2510: 'F': left of '::' must be a class/struct/union
+C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(75): error C3646: 'type': unknown override specifier
+C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(1284): error C2039: 'type': is not a member of 'boost::_bi::result_traits<R,F>'
+          with
+          [
+              R=boost::_bi::unspecified,
+              F=void (__thiscall visualizer::* )(clouddata *)
+          ]
+  C:\Program Files\PCL 1.9.1\3rdParty\Boost\include\boost-1_68\boost/bind/bind.hpp(1284): note: see declaration of 'boost::_bi::result_traits<R,F>'
+          with
+          [
+              R=boost::_bi::unspecified,
+              F=void (__thiscall visualizer::* )(clouddata *)
+          ]

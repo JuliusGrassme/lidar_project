@@ -1,0 +1,74 @@
+
+
+
+|-----------------------------------------------|
+Start management thread
+
+
+.
+
+
+.
+
+
+.wait on the lidar thread saying that it have compleated a rotation <<-----
+
+
+.signal camera to take an image ----->>
+
+
+.
+
+
+.wait on image gotten signal from the camera <<------
+
+
+.
+
+
+.<<----- write the new point data to the point cloud handler
+		(could do spinoff thread )
+
+.<<----- write the new image to the video file 
+		(could do spinoff thread )
+
+.<<----- write to the cloud data that new data is avaliable 
+
+
+.<<----- write to the video data that new data is avaliable
+
+
+.
+
+
+.
+
+
+. 
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Jetfire/Dropbox/IMPORTANT/Lidar Camera Project/PCL OPENGL2 UPGRADE/pcl_visualizer/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Jetfire/Dropbox/IMPORTANT/Lidar Camera Project/PCL OPENGL2 UPGRADE/pcl_visualizer/build2/CMakeFiles/generate.stamp is up-to-date.
+  main.cpp
+c:\users\jetfire\dropbox\important\lidar camera project\pcl opengl2 upgrade\pcl_visualizer\build2\data_classes.h(608): warning C4129: 'T': unrecognized character escape sequence
+c:\users\jetfire\dropbox\important\lidar camera project\pcl opengl2 upgrade\pcl_visualizer\build2\classess.h(214): warning C4715: 'interface::hashit': not all control paths return a value
+Release\main.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

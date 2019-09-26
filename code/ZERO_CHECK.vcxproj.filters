@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jetfire\Dropbox\IMPORTANT\Lidar Camera Project\PCL OPENGL2 UPGRADE\pcl_visualizer\build2\CMakeFiles\f11db942b6c2cb67c998bfb5dc33b2f8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C00D1FF-A630-3C85-A176-8E1E49DAAF9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

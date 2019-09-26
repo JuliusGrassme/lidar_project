@@ -1,0 +1,52 @@
+
+
+
+|-----------------------------------------------|
+Init video data
+
+
+.inits itself blank
+
+
+.
+
+
+.
+
+
+.
+
+.if being written to by the manager thread <<-----
+
+
+.		get the new data 
+
+
+.		write the data into the video file
+
+
+.		replace the current_frame_video with the new one
+
+
+.		set new_video_data to 1
+
+
+.
+
+
+.if being read from by the vizualizer thread <<-----
+
+
+.		set new_video_data to 0
+
+
+.		return the current_frame_video
+
+
+
+
+
+
+
+
+

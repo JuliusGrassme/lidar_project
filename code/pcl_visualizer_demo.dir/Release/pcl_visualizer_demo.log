@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\jetfire\dropbox\important\lidar camera project\pcl opengl2 upgrade\pcl_visualizer\build2\data_classes.h(2003): warning C4129: 'T': unrecognized character escape sequence
+c:\users\jetfire\dropbox\important\lidar camera project\pcl opengl2 upgrade\pcl_visualizer\build2\classess.h(187): warning C4715: 'interface::hashit': not all control paths return a value
+  pcl_visualizer_demo.vcxproj -> C:\Users\Jetfire\Dropbox\IMPORTANT\Lidar Camera Project\PCL OPENGL2 UPGRADE\pcl_visualizer\build2\Release\pcl_visualizer_demo.exe

@@ -1,0 +1,73 @@
+
+
+
+|-----------------------------------------------|
+Start lidar thread
+
+
+.
+
+
+wait on the sensor having compleated a full rotation
+
+
+signal camera to take an image ----->>
+
+
+get the data from the velodyne thread
+
+
+<<----- write data to the point cloud
+
+
+----->> wait on pointcloud saving  
+
+
+.
+
+
+<<----- signal vizueralizer to display
+
+
+.
+
+
+.
+
+
+wait on camera <<----- 
+
+
+.
+
+
+.
+
+
+.
+
+
+. 
+
+
+.
+
+
+.
+
+
+. ----->> wait on vizualizer
+
+
+.
+
+
+.
+
+
+.
+
+
+
+
+

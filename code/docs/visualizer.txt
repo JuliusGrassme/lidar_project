@@ -1,0 +1,74 @@
+
+
+
+|-----------------------------------------------|
+start vizualizer thread 
+
+
+.
+
+
+.
+
+
+.
+
+
+.wait untill it is time to render a frame at 60fps
+
+
+.if the viewer does not excist and if the interface wants there to be a viewer
+	
+	
+.		init a new viewer 
+
+
+.if the viewer excists and the viewer is meant to be there 
+	
+
+.		render a frame / update the windows with new data 
+
+
+.		if the new_cloud_data == 1 && new_video_data == 1
+
+
+.				<<----- get the newest frame from the cloud data
+
+
+.				set the new_cloud_data to 0
+
+
+.				<<----- get the newest frame from video data
+
+
+.				set the new_cloud_data to 0
+
+
+.if the viewer excists and the viewer is not meant to be there
+
+
+.		close the window
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
